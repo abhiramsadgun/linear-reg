@@ -17,7 +17,7 @@ plt.show()
 
 #Weight is an independent feature it should be a dataframe
 X=df[['Weight']] 
-#type(X)
+type(X)
 Y=df[['Height']]
 type(Y)
 from sklearn.model_selection import train_test_split
