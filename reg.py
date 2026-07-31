@@ -55,6 +55,7 @@ model=s.OLS(Y_train,X_train).fit()
 prediction=model.predict(X_test)
 print(prediction)
 print(model.summary())
+
 j=float(input("Enter value for prediction"))
 print(regression.predict(scaler.transform([[j]])))
 
